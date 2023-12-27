@@ -1,4 +1,5 @@
-@use "./variables" as *;
+@use "variables" as *;
+@import "reset";
 
 html {
 	box-sizing: border-box;
