@@ -1,0 +1,20 @@
+{
+	"trailingComma": "none",
+	"tabWidth": 2,
+	"useTabs": true,
+	"semi": false,
+	"singleQuote": true,
+	"arrowParens": "avoid",
+	"importOrderParserPlugins": ["jsx", "typescript", "javascript"],
+	"importOrderSeparation": true,
+	"importOrderSortSpecifiers": true,
+	"importOrder": [
+		"^nest(.*)$",
+		"<THIRD_PARTY_MODULES>",
+		"^@/config/(.*)$",
+		"^@/utils/(.*)$",
+		"^@/api/(.*)$",
+		"^@../(.*)$",
+		"^@./(.*)$"
+	]
+}
